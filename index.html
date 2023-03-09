@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="balance-container">
+        <div class="balance">
+          <div class="my-balance">My balance</div>
+          <div class="current-money">$921.48</div>
+        </div>
+        <div class="logo">
+          <img src="/images/logo.svg" alt="logo" />
+        </div>
+      </div>
+      <div class="spent">
+        <h1 class="spending-money">Spending - Last 7 days</h1>
+        <div class="diagrams">
+          <div class="weekly-diagram">
+            <div class="day-money" data-id="0"></div>
+            <div class="diagram mon"></div>
+            <div class="weekday">mon</div>
+          </div>
+          <div class="weekly-diagram">
+            <div class="day-money" data-id="1"></div>
+            <div class="diagram tue"></div>
+            <div class="weekday">tue</div>
+          </div>
+          <div class="weekly-diagram">
+            <div class="day-money" data-id="2"></div>
+            <div class="diagram wed"></div>
+            <div class="weekday">wed</div>
+          </div>
+          <div class="weekly-diagram">
+            <div class="day-money" data-id="3"></div>
+            <div class="diagram thu"></div>
+            <div class="weekday">thu</div>
+          </div>
+          <div class="weekly-diagram">
+            <div class="day-money" data-id="4"></div>
+            <div class="diagram fri"></div>
+            <div class="weekday">fri</div>
+          </div>
+          <div class="weekly-diagram">
+            <div class="day-money" data-id="5"></div>
+            <div class="diagram sat"></div>
+            <div class="weekday">sat</div>
+          </div>
+          <div class="weekly-diagram">
+            <div class="day-money" data-id="6">$52.36</div>
+            <div class="diagram sun"></div>
+            <div class="weekday">sun</div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="spent-bottom">
+          <div class="left-side">
+            <p class="total">Total this month</p>
+            <h1 class="total-spend-money">$478.33</h1>
+          </div>
+          <div class="right-side">
+            <h4>+2.4%</h4>
+            <p class="last">from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+      <script src="script.js
+      "></script>
+    </div>
+  </body>
+</html>
